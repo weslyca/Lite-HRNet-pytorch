@@ -11,13 +11,13 @@ PRINT_FREQ: 10
 DATASET:
   DATASET: cocostuff
   ROOT: '/fiftyone/coco-2017/'
-  TEST_SET: 'validation/'
-  TRAIN_SET: 'train/'
+  TEST_SET: 'validation/labels.json'
+  TRAIN_SET: 'train/labels.json'
   NUM_CLASSES: 171
 MODEL:
   NAME: seg_hrnet
   NUM_OUTPUTS: 1
-  PRETRAINED: 'pretrained_models/hrnetv2_w48_imagenet_pretrained.pth'
+  PRETRAINED: ''
   EXTRA:
     FINAL_CONV_KERNEL: 1
     STAGE1:
