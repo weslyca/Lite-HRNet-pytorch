@@ -10,7 +10,7 @@ PRINT_FREQ: 10
 
 DATASET:
   DATASET: cocostuff
-  ROOT: 'fiftyone/coco-2017/'
+  ROOT: '/fiftyone/coco-2017/'
   TEST_SET: 'validation/'
   TRAIN_SET: 'train/'
   NUM_CLASSES: 171
